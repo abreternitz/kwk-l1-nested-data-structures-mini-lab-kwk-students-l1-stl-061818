@@ -141,3 +141,86 @@ They also smell very fresh!",
     "NAPA CHOY"=>"New Choy; This pairing is meant to be because their 
 characteristics such as being unique, intelligent and having high expectations compliment your choy well. 
 They are also a very fresh veggie!",
+
+    "THE ORIGINAL BOK CHOY"=>"Middle Choy; This pairing is meant to be because their 
+characteristics such as being creative, ambitious and overprotective compliment your choy well. 
+They also are very avergage tasting!",
+    
+    "MIDDLE CHOY"=>"The Original Bok Choy; This pairing is meant to be because their 
+characteristics such as being homely, outgoing and moody compliment your choy well. 
+They are also a very majestic, holy veggie!",
+    
+    "SHANGHAI BOK CHOY"=> "Spring Choy; This pairing is meant to be because their 
+characteristics such as being reliable, faithful and easily angered compliment your choy well. 
+They are also a flower shapped veggie!",
+    
+    "BABY BOK CHOY"=>"Gai Choy; This pairing is meant to be because their 
+characteristics such as being elegant, charming and a hopless romantic compliments your choy well. 
+They also have a very spicy taste!"}
+  
+puts "Your Choymate is #{choymate[choytype]}!" .colorize(:green).italic
+
+sleep(5)
+
+elsif answer == "NO"
+  puts "Well, ok then........... :(".colorize(:green)
+  
+end
+
+puts "Wow, I can't believe that you know so much about your Bok Choy zodiac! 
+Are you still curious? If so, would you like to hear your Choyscope for today?".colorize(:green)
+ 
+answer=gets.chomp.upcase
+
+if answer== "YES"
+  
+  choyscope = {"NEW CHOY"=>"For a New Choy, today is full of options for you. 
+You can take the long, scenic route- or take a speedy short cut. 
+The path ahead of you is wide open and success is sure to meet you at the end of your journey.",
+  
+    "CHILLY CHOY"=>"For a Chilly Choy, today is filled with drama. 
+A recent conflict or argument with a close friend has likely occured and the only way to solve it is to confront this person. 
+Take the action today!",
+    
+    "HEART CHOY" => "For a Heart Choy, today a delay or change in schedule in your life may make you upset. 
+But don't give up! Use your skills of flexibility and understanding to overcome this.",
+    
+    "SPRING CHOY"=>"For a Spring Choy, today you will feel that no matter what you do- someone will disagree. 
+Don't allow them to change your mind or your plan and continue on your own journey.",
+    
+    "BRAIN CHOY"=>"For a Brain Choy, today you will feel the true weight of a bad difficult situation in your life on your shoulders. 
+However, you have risen above and are soon to be in a happy routine!",
+    
+    "YAU CHOY"=>"For a Yau Choy, today you may spiral into arguments with loved ones. 
+Do not allow the conflicts blur your true love for these family members!",
+    
+    "GAI CHOY"=>"For a Gai Choy, today is a time to break free! 
+The universe is calling you to freedom as new opportunities arise in your life.",
+    
+    "NAPA CHOY"=>"For a Napa Choy, lately you have not had a lot of passion and inspiration in your life. 
+It is time to resurrect the dreams in your life!",
+    
+    "THE ORIGINAL BOK CHOY"=>"For The Original Bok Choy, times have been very stressful lately. 
+A new experience will soon return your feelings of assurance and relaxation!",
+    
+    "MIDDLE CHOY"=>"For the Middle Choy, you should consider taking a new adventure or trip very soon.
+It may be out of the norm or risky- but you should take it!",
+    
+    "SHANGHAI BOK CHOY"=> "For the Shanghai Bok Choy, you may have a friend who is feeling down in the dumps. 
+You may feel like you can't make a difference- but you can! You have the power to help others.",
+    
+    "BABY BOK CHOY"=>"For the Baby Bok Choy, you will have a dramatic shift in one of your relationships. 
+Do not fear the change and instead welcome it- you may find that the relationship is better than ever!"}
+
+  
+puts "Your choyscope:
+#{choyscope[choytype]}".colorize(:green).italic
+
+elsif answer == "NO"
+puts "Sorry I dont know that one. Try again!"
+
+end
+
+sleep(5)
+puts "Now that you know your Bok Choy zodiac sign, your Choymate, and your Choyscope- 
+you are set for life!!! Have a Choy day! (^-^)".colorize(:green)
